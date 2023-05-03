@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <img class="hero__logo" src="./images/Sport_Club_Recife.svg.png" alt="Sport">
+            <p class="hero__text">
+                O aniversário do Sport começa em <span id="contador"></span>
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Ilha do Retiro - Recife
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Preço</b>
+                        A partir de R$120,00
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        13/05/2023 às 18hrs
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">
+                    Garanta sua Cadeira
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="event event--frontend">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">O Clube</h2>
+                <p class="event__details__description">
+                    O Sport foi fundado em 13 de maio de 1905, no salão da Associação dos Empregados do Comércio de Pernambuco. O engenheiro pernambucano Guilherme de Aquino reuniu, como o próprio hino do Leão diz, ardentes seguidores para começar a história do maior Clube do Norte-Nordeste. No total, foram 67 torcedores admitidos como fundadores, mesmo sem que todos os nomes constem na ata de fundação.
+                </p>
+            </div>
+            <img class="event__image" src="./images/brasao_1905.png" alt="frontend">
+        </div>
+    </section>
+    <section class="event event--ux-ui event--image-left">
+        <div class= "container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Campeão Brasileiro</h2>
+                <p class="event__details__description">
+                    O Sport escreveu uma das páginas mais importantes de sua história em 1987, quando sagrou-se campeão brasileiro, contra tudo e contra todos. Um título conquistado dentro de campo e ratificado ano após o ano nos Tribunais, em todas as esferas possíveis. Em 18 de abril de 2017, o Supremo Tribunal Federal declarou o Sport como o único e legítimo campeão de 1987 – negando mais um recurso do Flamengo e dando o caso como encerrado. Em meados de março de 2018, um ponto final na discussão: a decisão da STF transitou em julgado e os cariocas não têm mais como recorrer.
+                </p>
+            </div>
+            <img class="event__image" src="./images/1987.webp" alt="frontend">
+        </div>
+    </section>
+    <section class="event event--data-science">
+        <div class="container">
+            <div class="event__details" data-aos="fade-right">
+                <h2 class="event__details__title">Copa do Brasil 2008</h2>
+                <p class="event__details__description">
+                    Em 11 de junho de 2008, o Sport sagrava-se campeão da Copa do Brasil. A Ilha do Retiro ficou conhecida como “La Bombonilha” pela pressão que a torcida fez sobre os adversários em todo o torneio. Na finalíssima, Sport x Corinthians. 
+                </p>
+            </div>
+            <img class="event__image" src="./images/copadobrasil2008.webp">
+        </div>
+    </section>
+    <section class="event event--backend event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Tricampeão do Nordeste 1994,2000 e 2014</h2>
+                <p class="event__details__description">
+                    No torneio regional mais competitivo do País, o Sport tem seu lugar de destaque. Três vezes campeão da Copa do Nordeste, o Leão da Praça da Bandeira alcançou o primeiro título em 15 de dezembro de 1994, vencendo o CRB na decisão por pênaltis, em Alagoas. 
+                </p>
+            </div>
+            <img class="event__image" src="./images/tricampeaocopanordeste2014.webp" alt="frontend">
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
